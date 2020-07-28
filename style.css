@@ -1,0 +1,219 @@
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.aOrange {
+    color: #e76108;
+    border-bottom: 2px solid #e76108;
+}
+
+ul li{
+    text-decoration: none;
+}
+
+body{
+   text-align: center;
+   margin: 0px 0px;
+}
+
+header{
+    background-color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 15px 15px 15px;
+
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+header a {
+    color: #808080;
+}
+
+nav{
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: large;
+    padding-bottom: 25px;
+    margin: 25px 200px;
+    border-bottom: 2px solid #000000;
+}
+nav a{
+    padding: 0 15px;
+    
+}
+nav a:hover{
+    color: #808080;
+}
+
+nav img{
+    max-width: 80px;
+    max-height: 110px;
+    border-bottom: none;
+}
+
+.slider img {
+    position: relative;
+}
+
+.containerInfo{
+    margin: 75px 125px;
+}
+
+.containerInfo p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.importantInfo{
+    color: #ff0000;
+}
+
+.welcomeText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.newsAndEvents h2{
+    text-transform: uppercase;
+    float: center;
+    font-size: xx-large;
+}
+
+.newsFlex{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.news img{
+    max-width: 350px;
+    max-height: 500px;
+}
+
+.events{
+    margin-top: 100px;
+}
+
+.eventsFlex{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.events img{
+    max-width: 350px;
+    max-height: 500px;
+}
+
+.containerZooSchool{
+    background-color: #c0c0c0;
+    height: 600px;
+    display: flex;
+    margin: 100px 0px;
+}
+
+.zooSchool {
+    background-color: #ffffff;
+    background-image: url(https://images.unsplash.com/photo-1504169448388-60f322bebb2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #2f00ffd7;
+
+    margin-top: 100px;
+    margin: 75px 200px;
+    padding: 75px 0px;
+    display: block;
+}
+
+.zooSchool h2 {
+    text-transform: uppercase;
+}
+
+.zooSchool p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.orangeButton {
+    background-color: #e76108;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    border: 1px solid #e76108;
+    border-radius: 5px;
+
+    padding: 15px 75px;
+}
+
+.orangeButton:hover{
+    background-color: #e7610896;
+}
+
+.footerBoxOne{
+    background-color: #000000;
+    color: #808080;
+    text-align: center;
+    padding: 75px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footerBoxOne p {
+        color: #808080;
+}
+
+.footerBoxOne a{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #2f00ff;
+    border-radius: 3px;
+    padding: 10px 100px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.footerBoxOne a:last-child{
+    border: 2px solid #cc00ff;
+}
+
+.footerBoxOne a:hover{
+    background-color: #2f00ff;
+    border: 2px solid #2f00ff;
+    border-radius: 0px;
+    display: inline-block;
+}
+
+.footerBoxOne a:hover:last-child{
+    background-color: #cc00ff;
+    border: 2px solid #cc00ff;
+    border-radius: 0px;
+    display: inline-block;
+}
+
+.footerBoxTwo {
+    background-color: #ffffff;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 50px 125px;
+    display: block;
+}
+
+.footerBoxTwo a {
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.footerBoxTwo a:last-child {
+    float: right;
+    margin-right: 50px;
+}
+
+.footerBoxTwo a:hover{
+    border-bottom: 1px solid #000000;
+    
+}
