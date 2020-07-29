@@ -3,9 +3,9 @@ a {
     color: #000000;
 }
 
-.aOrange {
+.aPrimary {
     color: #e76108;
-    border-bottom: 2px solid #e76108;
+    border-bottom: 0.125em solid #e76108;
 }
 
 ul li{
@@ -14,32 +14,33 @@ ul li{
 
 body{
    text-align: center;
-   margin: 0px 0px;
+   margin: 0em 0em;
 }
 
 header{
     background-color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px 15px 15px 15px;
+    padding: 1em 1em 1em 1em;
 
     text-transform: uppercase;
-    justify-content: center;
+    
 }
 
 header a {
     color: #808080;
+
+    padding: 0em 1.875em;
 }
 
 nav{
-    margin-top: 25px;
     text-transform: uppercase;
-    font-size: large;
-    padding-bottom: 25px;
-    margin: 25px 200px;
-    border-bottom: 2px solid #000000;
+    font-size: 1em;
+    padding-bottom: 1.6em;
+    margin: 1.6em 12.5em;
+    border-bottom: 0.125em solid #000000;
 }
 nav a{
-    padding: 0 15px;
+    padding: 0em 1em;
     
 }
 nav a:hover{
@@ -47,8 +48,8 @@ nav a:hover{
 }
 
 nav img{
-    max-width: 80px;
-    max-height: 110px;
+    max-width: 5em;
+    max-height: 6.875em;
     border-bottom: none;
 }
 
@@ -57,12 +58,12 @@ nav img{
 }
 
 .containerInfo{
-    margin: 75px 125px;
+    margin: 4.7em 7.8em;
 }
 
 .containerInfo p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .importantInfo{
@@ -71,7 +72,7 @@ nav img{
 
 .welcomeText{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .newsAndEvents h2{
@@ -80,76 +81,75 @@ nav img{
     font-size: xx-large;
 }
 
+
 .newsFlex{
     display: flex;
     justify-content: space-around;
-    margin: 50px 0px;
+    margin: 3.125em 0em;
 }
 
 .news img{
-    max-width: 350px;
-    max-height: 500px;
+    max-width: 21.875em;
+    max-height: 31.25em;
 }
 
 .events{
-    margin-top: 100px;
+    margin-top: 6.25em;
 }
 
 .eventsFlex{
     display: flex;
     justify-content: space-around;
-    margin: 50px 0px;
+    margin: 3.125em 0em;
 }
 
 .events img{
-    max-width: 350px;
-    max-height: 500px;
+    max-width: 21.875em;
+    max-height: 31.25em;
 }
 
 .containerZooSchool{
     background-color: #c0c0c0;
-    height: 600px;
+    height: 37.5em;
     display: flex;
-    margin: 100px 0px;
+    margin: 6.25em 0em;
 }
 
-.zooSchool {
+.zooSchoolFlex {
+    display: block;
     background-color: #ffffff;
     background-image: url(https://images.unsplash.com/photo-1504169448388-60f322bebb2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 1.25em;
+    
     color: #2f00ffd7;
 
-    margin-top: 100px;
-    margin: 75px 200px;
-    padding: 75px 0px;
-    display: block;
+    margin: 4.7em 12.5em;
+    padding: 2em 0em;
 }
 
-.zooSchool h2 {
+.zooSchoolFlex h2 {
     text-transform: uppercase;
 }
 
-.zooSchool p {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+.zooSchoolFlex p {
+    padding: 0em 3.125em 3.125em 3.125em;
 }
-.orangeButton {
+
+.buttonPrimary {
     background-color: #e76108;
     color: #ffffff;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    border: 1px solid #e76108;
-    border-radius: 5px;
+    border: 0.06em solid #e76108;
+    border-radius: 0.31em;
 
-    padding: 15px 75px;
+    padding: 1em 4.7em;
 }
 
-.orangeButton:hover{
+.buttonPrimary:hover{
     background-color: #e7610896;
 }
 
@@ -157,8 +157,8 @@ nav img{
     background-color: #000000;
     color: #808080;
     text-align: center;
-    padding: 75px;
-    font-size: 22px;
+    padding: 4.7em;
+    font-size: 1.375em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -169,28 +169,28 @@ nav img{
 .footerBoxOne a{
     background-color: #000000;
     color: #ffffff;
-    border: 1px solid #2f00ff;
+    border: 0.06em solid #2f00ff;
     border-radius: 3px;
-    padding: 10px 100px;
+    padding: 0.625em 6.25em;
     display: inline-block;
     justify-content: space-between;
 }
 
 .footerBoxOne a:last-child{
-    border: 2px solid #cc00ff;
+    border: 0.125em solid #cc00ff;
 }
 
 .footerBoxOne a:hover{
     background-color: #2f00ff;
-    border: 2px solid #2f00ff;
-    border-radius: 0px;
+    border: 0.125em solid #2f00ff;
+    border-radius: 0em;
     display: inline-block;
 }
 
 .footerBoxOne a:hover:last-child{
     background-color: #cc00ff;
-    border: 2px solid #cc00ff;
-    border-radius: 0px;
+    border: 0.125em solid #cc00ff;
+    border-radius: 0em;
     display: inline-block;
 }
 
@@ -198,22 +198,62 @@ nav img{
     background-color: #ffffff;
     color: #000000;
     text-transform: uppercase;
-    padding: 50px 125px;
+    padding: 3.125em 7.8em;
     display: block;
 }
 
 .footerBoxTwo a {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
     float: left;
 }
 
 .footerBoxTwo a:last-child {
     float: right;
-    margin-right: 50px;
+    margin-right: 3.125em;
 }
 
 .footerBoxTwo a:hover{
-    border-bottom: 1px solid #000000;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 580px){
+    nav{
+        float: none;
+        display: block;
+        text-align: center;
+        margin-left: 0em;
+    }
+
+    nav img{
+        display: none;
+    }
+
+    body{
+        width: 100%;
+        height: auto;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    .newsFlex {
+        display: block;
+    }
     
+    .eventsFlex {
+        display: block;
+    }
+
+    .containerZooSchool{
+        display: block;
+        float: right;
+    }
+
+    .buttonPrimary{
+        max-width: 25%;
+        max-height: 50%;
+    }
 }
